@@ -1,0 +1,29 @@
+
+console.log(1 + 1);
+
+console.log(1 * 2);
+
+let um = 1;
+let dois = 3;
+console.log(um + dois);
+
+let soma = um + dois;
+console.log(soma);
+
+soma = 1 + "1";
+console.log(soma);
+
+soma = "ola" + 23;
+console.log(soma);
+
+msg1 = "Ola" + " " + 1 + " " + "valor" + 2 + "mundo";
+msg2 = "JUNTOS" + 3 + "valor" + 88 + "mundo";
+console.log(msg1, msg2);
+
+let nome = 'Juarez Madeira';
+let idade = 88;
+let peso = 88;
+let altura = 1.90;
+let plano = false;
+let IMC = peso / (altura ^ 2);
+console.log(nome, 'tem', idade, 'anos. O seu IMC é de', IMC);
